@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		8295C7F56B747D1E9D8F7480 /* Pods_LJArrayDataSource_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754AF960ACB43D1AF13D38D7 /* Pods_LJArrayDataSource_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A043E1F81D13E0A800F3AF5D /* LJArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A043E1F71D13E0A800F3AF5D /* LJArrayDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		754AF960ACB43D1AF13D38D7 /* Pods_LJArrayDataSource_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJArrayDataSource_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9ABBAEB70ACBCD810940A987 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A043E1F61D13E0A800F3AF5D /* LJArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJArrayDataSource.h; sourceTree = "<group>"; };
+		A043E1F71D13E0A800F3AF5D /* LJArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJArrayDataSource.m; sourceTree = "<group>"; };
 		AD7A341027993653AD08F598 /* LJArrayDataSource.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LJArrayDataSource.podspec; path = ../LJArrayDataSource.podspec; sourceTree = "<group>"; };
 		CA2D6AC3133F4C8A2E841D0F /* Pods-LJArrayDataSource_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJArrayDataSource_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJArrayDataSource_Example/Pods-LJArrayDataSource_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F55B558B3CF473C90274ACF7 /* Pods-LJArrayDataSource_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJArrayDataSource_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJArrayDataSource_Tests/Pods-LJArrayDataSource_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +110,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				A043E1F11D13E06D00F3AF5D /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LJArrayDataSource */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -191,6 +195,16 @@
 				0D6C75926D70F78CDAD1C48D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A043E1F11D13E06D00F3AF5D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A043E1F61D13E0A800F3AF5D /* LJArrayDataSource.h */,
+				A043E1F71D13E0A800F3AF5D /* LJArrayDataSource.m */,
+			);
+			name = Classes;
+			path = ../LJArrayDataSource/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,6 +406,7 @@
 			files = (
 				6003F59E195388D20070C39A /* LJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LJViewController.m in Sources */,
+				A043E1F81D13E0A800F3AF5D /* LJArrayDataSource.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
