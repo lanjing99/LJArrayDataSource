@@ -1,0 +1,16 @@
+PODS:
+  - LJArrayDataSource (0.1.0)
+
+DEPENDENCIES:
+  - LJArrayDataSource (from `../`)
+
+EXTERNAL SOURCES:
+  LJArrayDataSource:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LJArrayDataSource: f1658abfc6993e264c9d2477eeff7f2b168da08d
+
+PODFILE CHECKSUM: 07069e86e8710e3b0d0eec2911bf9e4621edf3c4
+
+COCOAPODS: 1.0.1

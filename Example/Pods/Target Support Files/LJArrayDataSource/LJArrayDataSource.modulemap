@@ -1,0 +1,6 @@
+framework module LJArrayDataSource {
+  umbrella header "LJArrayDataSource-umbrella.h"
+
+  export *
+  module * { export * }
+}
