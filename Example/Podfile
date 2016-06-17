@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LJArrayDataSource_Example' do
+  pod 'LJArrayDataSource', :path => '../'
+
+  target 'LJArrayDataSource_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
